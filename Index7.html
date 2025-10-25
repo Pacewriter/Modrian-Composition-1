@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Piet Modrian</title>
+    </head>
+    <style>
+
+        body{
+            display: flex;
+            justify-content: center;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: 90px 400px 105px 105px;
+            grid-template-rows: 100px 500px 20px 80px;
+            background-color: black;
+            width: 730px;
+            height: 730px;
+            gap: 10px;
+            border: 2px solid black;
+            
+        }
+
+        .red{
+            background-color: red;
+            grid-area: 1 / 1 / 2 / 3;
+        }
+
+        .white{
+            background-color: azure;
+            grid-area: 1 / 3 / 2 / 5;
+        }
+
+        .white2{
+            background-color: azure;
+            grid-area: 2 / 1 / 4 / 3;
+        }
+        
+        .grey{
+            background-color: grey;
+            grid-area: 2 / 3 / 3 / 5;
+        }
+
+        .yellow{
+            background-color: yellow;
+            grid-area: 4 / 1 / 5 / 2;
+        }
+
+        .white3{
+            background-color: azure;
+            grid-area: 4 / 2 / 5 / 3;
+        }
+
+        .blue{
+            background-color: blue;
+            grid-area: 3 / 3 / 5 / 5;
+        }
+
+
+
+    </style>
+
+    <body>
+        <div class="container">
+            <div class="item red"></div>
+            <div class="item white"></div>
+            <div class="item white2"></div>
+            <div class="item grey"></div>
+
+            <div class="item yellow"></div>
+            <div class="item white3"></div>
+            <div class="item blue"></div>
+        </div>
+    </body>
+</html>    
+
+
+
+
